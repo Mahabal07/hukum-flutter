@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "217599773757",
+    "project_id": "hukum-c3925",
+    "storage_bucket": "hukum-c3925.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217599773757:android:8852e62185fae0a5e36e54",
+        "android_client_info": {
+          "package_name": "com.example.myfirstproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIlcxoudOiqNrGnzJM-QOh11vuCnEK_BI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
