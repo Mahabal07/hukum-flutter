@@ -101,6 +101,7 @@ class _MilkCalculatorState extends State<MilkCalculator> {
         child: Form(
           child: Column(
             children: [
+              Image.asset('assets/splashscreen1.jpg'),
               TextFormField(
                 decoration: InputDecoration(labelText: 'Date:'),
                 onTap: () async {

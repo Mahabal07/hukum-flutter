@@ -12,19 +12,29 @@ dependencies:
     sdk: flutter
   firebase_core: ^2.24.2
   cloud_firestore: ^4.4.0
-  firebase_auth: ^4.16.0
+  firebase_auth: ^4.4.0
   date_format: ^2.0.0
   cupertino_icons: ^1.0.2
   flutter_svg: ^0.22.0 # Add the latest version of flutter_svg here
-
+  google_sign_in: ^5.0.7
 
 
 dev_dependencies:
+  flutter_native_splash: ^1.2.0
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+#  google_sign_in: ^5.0.7
+
 
 flutter:
   assets:
-    - lib/assets/Hukum_background.jpg
+    - assets/splashscreen1.jpg
+#    - assets/welcome_image.jpg
+    - assets/welcome_image2.jpg
+    - assets/signinbackground.jpg
+    - assets/welcome_image3.jpg
+    - assets/icons/
+
+
 
