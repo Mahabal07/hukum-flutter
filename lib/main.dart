@@ -1,10 +1,21 @@
 import 'dart:async';
 
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 import 'welcome_screen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: FirebaseOptions(
+      apiKey: 'AIzaSyAIlcxoudOiqNrGnzJM-QOh11vuCnEK_BI',
+      appId: '1:217599773757:android:8852e62185fae0a5e36e54',
+      messagingSenderId: '217599773757',
+      projectId: 'hukum-c3925',
+      storageBucket: 'hukum-c3925.appspot.com',
+    ),
+  );
   runApp(MyApp());
 }
 

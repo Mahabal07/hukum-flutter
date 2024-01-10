@@ -24,7 +24,7 @@ class WelcomeScreen extends StatelessWidget {
         children: [
           // Background Image
           Image.asset(
-            'assets/welcome_image3.jpg',
+            'assets/welcome_image1.jpg',
             fit: BoxFit.cover,
           ),
           // Welcome Text
@@ -69,7 +69,7 @@ class WelcomeScreen extends StatelessWidget {
                     ),
                   );
                 },
-                child: Text('Sign In'),
+                child: Text('Get Started'),
               ),
             ),
           ),
